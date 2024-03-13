@@ -7,7 +7,7 @@ environment_variables:
 phases:
   install:
     runtime-versions:
-      docker: 18
+      python: 3.9
     commands:                                                                 
       - cd /tmp
       - wgethttps://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
